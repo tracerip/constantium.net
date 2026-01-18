@@ -30,3 +30,5 @@
 User-Agent: *
 Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
+
+Sitemap: https://constantium.net/sitemap.xml
