@@ -154,6 +154,7 @@ const $ = (s, el=document) => el.querySelector(s);
         },
         server(){
           sectionHeader('Server Information');
+          writeLine('- We have bought Constantium and the original files were deleted by the original owner the server has been reset and is now in our hands');
           writeLine(`Address: ${SERVER.primaryIp}`, 'ok');
           writeLine(`Gameplay: ${SERVER.info.platform}`);
           writeLine('');
@@ -168,9 +169,6 @@ const $ = (s, el=document) => el.querySelector(s);
           writeLine('');
           writeLine('Connection IPs:', 'tag');
           writeLine(`- ${SERVER.primaryIp}`);
-          writeLine('');
-          writeLine('Extra Info:', 'tag');
-          writeLine('- We have bought Constantium and the original files were deleted by the original owner the server has been reset and is now in our hands");
         },
         rules(){
           sectionHeader('Rules');
